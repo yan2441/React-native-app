@@ -13,7 +13,10 @@ const ViewImageScreen = () => {
       <View style={styles.deleteIcon}>
         <MaterialCommunityIcons name="trash-can-outline" color="white" size={30} />
       </View>
-      <Image resizeMode="contain" style={styles.image} source={require('../assets/chair.jpg')} />
+      <Image
+        resizeMode="contain"
+        style={styles.image}
+        source={require('../assets/icon.png')} />
     </View>
   )
 }
