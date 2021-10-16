@@ -18,7 +18,7 @@ const menuItems = [
   },
   {
     id: 1,
-    title: 'my meesssag',
+    title: 'my messages',
     icon: {
       name: "email",
       backgroundColor: colors.secondary
@@ -37,7 +37,7 @@ const AccountScreen = ({ navigation }) => {
         <ListItem
           title={user.name}
           subTitle={user.email}
-          image={require('../assets/mosh.jpg')}
+          image={require('../assets/avatar.jpg')}
         />
       </View>
       <View style={styles.container}>

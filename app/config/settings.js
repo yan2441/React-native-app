@@ -5,11 +5,11 @@ const settings = {
     apiUrl: 'http://192.168.1.6:9000/api'
   },
   staging: {
-    apiUrl: 'http://192.168.1.6:9000/api'
+    apiUrl: 'https://donewithit-reactnative-app.herokuapp.com/api/'
   }
   ,
   prod: {
-    apiUrl: 'http://192.168.1.6:9000/api'
+    apiUrl: 'https://donewithit-reactnative-app.herokuapp.com/api/'
   }
 }
 

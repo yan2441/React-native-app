@@ -10,7 +10,7 @@ import ContactSellerForm from '../components/ContactSellerForm';
 const ListingDetailsScreen = ({ route }) => {
 
   const listing = route.params;
-
+  const { user } = useAuth()
   return (
     <KeyboardAvoidingView
       behavior="position"
@@ -28,8 +28,8 @@ const ListingDetailsScreen = ({ route }) => {
         <AppText style={styles.price}>$ {listing.price}</AppText>
         <View style={styles.userContainer}>
           <ListItem
-            image={require("../assets/mosh.jpg")}
-            title="yassine najem"
+            image={require("../assets/avatar.jpg")}
+            title={user.name}
             subTitle="6 listing"
           />
         </View>
